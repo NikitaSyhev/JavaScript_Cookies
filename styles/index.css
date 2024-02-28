@@ -1,0 +1,56 @@
+/* ======VARIABLES====== */
+:root {
+    --bgcolor: white;
+    --fontcolor:black;
+
+}
+
+
+/* ======GLOBAL SETTINGS====== */
+*{
+    margin:0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: var(--fontcolor);
+
+    box-sizing: border-box;
+
+    transition: 0.1s;
+}
+
+body {
+    background-color: var(--bgcolor);
+}
+
+
+/* ======ARTICLE====== */
+article {
+    margin: 20px;
+    padding: 30px;
+
+    border:3px solid var(--fontcolor);
+
+    width: 600px;
+
+}
+
+.art-title {
+    font-size: 1.5em;
+}
+
+.art-description {
+    margin-top: 16px;
+    text-align: justify;
+}
+
+#switch-theme {
+    margin: 20px;
+    padding: 16px;
+    border:3px solid var(--fontcolor);
+
+    background-color: var(--bgcolor);
+
+    cursor:pointer;
+}
